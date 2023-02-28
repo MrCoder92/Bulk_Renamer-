@@ -3,12 +3,12 @@ Renaming bulk files in a folder or directory
 
 #For python to know the Operating System you are using (import OS)
 
-import os
+    import os
 
 #Create the bulk rename function and set i=o (as default)
 
-def main():
-    i = 0
+    def main():
+        i = 0
 
 #Specify the path/ directory where the bulk file folder is located.
 #Change all back slashes to front slash. Put another front slash at the end of the directory URL
@@ -24,5 +24,5 @@ def main():
 
 #Execute the function
 
-if __name__ == "__main__":
-    print(main())
+    if __name__ == "__main__":
+        print(main())
